@@ -1,3 +1,213 @@
+.body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: white;
+  color: black;
+  padding: 0px 0px;
+}
+
+.logonav {
+  display: flex;
+  justify-content: flex-start;
+  height: 40px;
+  padding: 0px 0px;
+}
+
+.navoptions {
+  display: flex;
+  list-style-type: none;
+  justify-content: flex-end;
+  font-weight: 300;
+  margin-right: 20px;
+  font-size: 16px;
+  padding: 0px 00px;
+}
+
+.navoptions li {
+  margin-left: 20px;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+}
+
+.content {
+  margin-top: 20px;
+  padding: 20px;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+}
+
+.hero {
+  background-image: url("/images/landing.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.hero-content {
+  max-width: 80%;
+}
+
+.hero h1 {
+  font-size: 4em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+.hero h2 {
+  font-size: 2em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+.section3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+.s3title {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-size: 1.5em;
+  background-color: white;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  text-decoration: underline #00b172;
+  padding: 0px 0px;
+}
+
+.s3boxes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: white;
+  color: black;
+  padding: 0px 0px;
+}
+
+.s3boxes img {
+  width: 100px;
+  align-items: center;
+}
+
+.s3boxes h2 {
+  font-size: 1.7em;
+  background-color: white;
+  color: #00b172;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  padding: 15px 15px;
+  margin: 0px 0px;
+}
+
+.s3boxes h3 {
+  font-size: 1.2em;
+  background-color: white;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  text-align: center;
+}
+
+.s3box1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  align-items: center;
+  margin: 0px 0px;
+  padding: 0px 0px;
+}
+
+.s3box2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 0px;
+  padding: 0px 0px;
+}
+
+.s3box3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 0px;
+  padding: 0px 0px;
+}
+
+.section4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  background-color: #00b172;
+  color: white;
+  padding: 10px 10px;
+}
+
+.s4text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0px 0px;
+  margin: 0px 0px;
+}
+
+.s4text h1 {
+  font-size: 2.5em;
+  font-weight: 600;
+  text-decoration: underline white;
+}
+
+.s4text h2 {
+  font-size: 2em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+.s4text h3 {
+  font-size: 1.5em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+.middlelogo {
+  display: flex;
+  justify-content: center;
+  width: 100%
+  align-items: center;
+  margin: 30;
+  padding: 30px 30px;
+  height: 150px;
+}
+
+.appscreen {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 30px 30px;
+}
+
 /*
 Colors:
 
